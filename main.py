@@ -1,1 +1,1 @@
-print("danish")
+print('sigma')

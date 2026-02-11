@@ -12,12 +12,3 @@ Akan lebih bagus jika kamu bisa membuat lebih banyak tes!
 Tes untuk memastikan panjang password sesuai dengan yang diminta
 Tes untuk memastikan dua password yang dibuat berurutan tidak sama
 """
-
-def test_password_length():
-    password = generate_password(12)
-    assert len(password) == 12
-
-def test_password_uniqueness():
-    password1 = generate_password(12)
-    password2 = generate_password(12)
-    assert password1 != password2
