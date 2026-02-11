@@ -1,1 +1,1 @@
-print("amburadul")
+print("ahmad dyasa")
