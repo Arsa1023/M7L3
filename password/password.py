@@ -8,5 +8,5 @@ def generate_password(length=12):
         password += random.choice(characters)
     return password
 # Contoh penggunaan
-password_length = 12  # Anda dapat memilih panjang password yang diinginkan
+password_length = int(input("Enter how many word do you want?"))  # Anda dapat memilih panjang password yang diinginkan
 print("Password baru Anda:", generate_password(password_length))
